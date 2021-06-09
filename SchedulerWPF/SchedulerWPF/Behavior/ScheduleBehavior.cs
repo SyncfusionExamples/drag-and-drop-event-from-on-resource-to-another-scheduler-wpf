@@ -27,7 +27,7 @@ private void Schedule_AppointmentDropping(object sender, AppointmentDroppingEven
     if (e.SourceResource != e.TargetResource)
     {
         e.Cancel = true;
-        MessageBox.Show("You have trying to dropped to another resource, please drop within the resource");
+        MessageBox.Show("You are trying to drop the event to another resource, please drop within the resource");
     }
 }
 
